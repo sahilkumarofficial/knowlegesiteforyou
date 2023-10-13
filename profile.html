@@ -1,0 +1,732 @@
+<html>
+<head>
+<title>home page</title>
+<style>
+#con{
+height:100%;
+top:10px;
+position:fixed;
+width:200px;
+opaticty:0.5;
+
+color:#004385;
+box-shadow:0px 2px 2px 0px grey;
+
+}
+
+#name{
+text-align:center;
+}
+#cover{
+position:relative;
+width:70%;
+height:30%;
+background-image:url("cover.jpg");
+background-size:cover;
+
+}
+
+#profile1{
+position:relative;
+top:60%;
+width:150px;
+height:150px;
+background-image:url("men.jpg");
+background-size:cover;
+border-color:gray;
+border-radius:50%;
+}
+#camera1{
+position:relative;
+margin-top:80%;
+float:right;
+height:25px;
+width:25px;
+background-size:cover;
+}
+#camera2{
+position:relative;
+margin-top:23%;
+float:right;
+height:25px;
+width:25px;
+background-size:cover;
+}
+
+#profile{
+margin-top:5%;
+width:150px;
+height:150px;
+background-image:url("men.jpg");
+background-size:cover;
+border-color:gray;
+border-radius:50%;
+}
+#allpost{
+background-image:url("men2.jpg");
+position:relative;
+margin-left:2%;
+float:left;
+top:23%;
+width:15%;
+height:40%;
+
+margin-bottom:2%;
+background-size:cover;
+
+}
+#home{
+margin-left:5px;
+float:left;
+height:25px;
+width:25px;
+background-size:cover;
+}
+#hom{
+border-radius:50%;
+margin-left:5px;
+float:left;
+height:25px;
+width:25px;
+background-size:cover;
+}
+
+.box{
+font-weight:bold;
+margin-top:10px;
+float:right;
+}
+
+#h{
+float:left;
+margin-left:10px;
+}
+
+.small{
+margin-top:10px;
+display:flex;
+justify-content:flex-start;
+margin-left:10px;
+}
+
+#form{
+background-color:#033860;
+position:fixed;
+z-index:1;
+top:0px;
+left:210px;
+height:60px;
+opaticty:0.5;
+width:100%;
+color:#004385;
+box-shadow:2px 5px 5px 2px grey;
+}
+.type{
+width:400px;
+height:40px;
+margin-top:8px;
+margin-left:10%;
+}
+#headname{
+font-size:30px;
+font-weigth:bold;
+margin-left:10px;
+color:white;
+}
+#btsearch{
+font-weigth:bold;
+color:white;
+height:40px;
+background-color:#004385;
+border:2px solid #004385;
+border-radius:5px;
+}
+#postweb{
+position:relative;
+margin-left:200px;
+top:10%;
+width:350px;
+height:400px;
+}
+
+#postpage{
+postion:relative;
+margin-left:100px;
+margin-top:10px;
+
+}
+#student{
+margin-bottom:25px;
+border-radius:20px;
+border:2px solid #004385;
+}
+
+#profilehead{
+margin-top:10px;
+display:flex;
+justify-content:flex-start;
+margin-left:10px;
+width:100%;
+height:40px;
+}
+#profilephoto{
+position:relative;
+margin-top:5px;
+width:30px;
+height:30px;
+background-image:url("men.jpg");
+background-size:cover;
+border-color:gray;
+border-radius:50%;
+}
+
+#id{
+margin-top:5px;
+margin-left:10px;
+font-size:20px;
+font-color:gray;
+}
+#postdate{
+margin-top:5px;
+margin-left:30px;
+font-size:20px;
+font-color:gray;
+}
+#postphoto{
+position:relative;
+width:100%;
+height:70%;
+background-size:cover;
+}
+#activity{
+
+display:flex;
+justify-content:flex-start;
+margin-left:10px;
+width:100%;
+height:40px;
+}
+#like{
+margin-left:5px;
+float:left;
+height:25px;
+width:25px;
+background-image:url("like.png");
+background-size:cover;
+}
+#likenum{
+margin-left:10px;
+font-size:20px;
+font-color:gray;
+}
+#commentnum{
+margin-left:10px;
+font-size:20px;
+font-color:gray;
+}
+
+
+
+#comment{
+margin-left:10px;
+float:left;
+height:25px;
+width:25px;
+background-image:url("comment.png");
+background-size:cover;
+}
+#share{
+margin-left:10px;
+float:left;
+height:25px;
+width:25px;
+background-image:url("comment.png");
+background-size:cover;
+}
+#belowactivity{
+text-align:center;
+}
+
+#contmess{
+position:relative;
+
+margin-left:600px;
+height:100%;
+width:80%;
+box-shadow:2px 5px 5px 2px grey;
+}
+#messenger{
+background-color:#3fab6a;
+position:fixed;
+z-index:1;
+top:65px;
+height:50px;
+opaticty:0.5;
+width:57%;
+height:35px;
+font-weight:bold;
+color:white;
+font-size:18px;
+padding-left:30px;
+box-shadow:2px 5px 5px 2px grey;
+}
+.group{
+border-color:#3fab6a;
+margin-left:40px;
+text-align:center;
+width:300px;
+background-color:#3fab6a;
+height:35px;
+font-weight:bold;
+color:white;
+font-size:18px;
+}
+#call{
+
+float:right;
+margin-right:30px;
+height:25px;
+width:25px;
+background-image:url("comment.png");
+background-size:cover;
+}
+
+
+#lefttext1{
+position:relative;
+left:20%;
+top:1%;
+background-color:white;
+width:38%;
+height:5%;
+
+border-radius:5px;
+margin-bottom:5px;
+color:white;
+}
+
+
+#fotter{
+background-color:#3fab6a;
+position:fixed;
+z-index:1;
+bottom:0%;
+opaticty:0.5;
+width:57%;
+height:5%;
+font-weight:bold;
+color:white;
+font-size:18px;
+box-shadow:5px 5px 5px 5px grey;
+}
+
+
+#sendtext{
+font-size:90%;
+position:relative;
+left:33%;
+width:40%;
+}
+
+#btsend{
+font-size:90%;
+position:relative;
+left:33%;
+border-radius:8px;
+background-color:#3fab6a;
+color:white;
+height:90%;
+width:15%;
+}
+</style>
+</head>
+<body>
+<div id="con">
+<center>
+<div id="profile"></div></center>
+<h2 id="name"> Hii Sahil </h2>
+<hr>
+<div class="small">
+<div><img
+   id="home"
+  src="home.png"
+/></div>
+<div id="h"class="box">Home</div>
+</div>
+
+<div class="small">
+<div><img
+   id="hom"
+  src="men.jpg"
+/></div>
+<div id="h"class="box">Profile</div>
+</div>
+<div class="small">
+<div><img
+   id="home"
+  src="upload.png"
+/></div>
+<div id="h"class="box">Upload Content</div>
+</div>
+<div class="small">
+<div><img
+   id="home"
+  src="comment.png"
+/></div>
+<div id="h"class="box">Message</div>
+</div>
+<div class="small">
+<div><img
+   id="home"
+  src="collage.png"
+/></div>
+<div id="h"class="box">Collage Group</div>
+</div>
+
+<div class="small">
+<div><img
+   id="home"
+  src="notification.png"
+/></div>
+<div id="h"class="box">Collage Notification</div>
+</div>
+
+<div class="small">
+<div><img
+   id="home"
+  src="admin.png"
+/></div>
+<div id="h"class="box">Chats with admin</div>
+</div>
+<div class="small">
+<div><img
+   id="home"
+  src="logout.png"
+/></div>
+<div id="h"class="box">Admin login</div>
+</div>
+<div class="small">
+<div><img
+   id="home"
+  src="about.png"
+/></div>
+<div id="h"class="box">About</div>
+</div>
+<div class="small">
+<div><img
+   id="home"
+  src="off.png"
+/></div>
+<div id="h"class="box">Log Out</div>
+</div>
+</div>
+<!--
+now the code for header
+-->
+
+<div id="form">
+ <a id="headname">Friendbook</a>
+       <input class="type" type="text" placeholder="Search Student name or id">
+      <button id="btsearch">Search</button>
+</div>
+</div>
+ 
+<!--
+from here code start of all post
+-->
+<div id="postweb">
+<div id="postpage">
+
+
+<div id="student">
+
+<div id="profilehead">
+<div id="profilephoto"></div>
+<div id="id"> sahil.03</div>
+<div id="postdate">28 sep 2023</div>
+</div>
+<br>
+<div ><img
+id="postphoto"
+  src="men1.jpg"
+/></div>
+<br>
+<div id="activity">
+<div id="like"></div>
+<div id="likenum">340</div>
+<div><img
+   id="comment"
+  src="comment.png"
+/></div>
+<div id="commentnum">204</div>
+<div><img
+   id="share"
+  src="share.png"
+/></div></div>
+<br>
+<div id="belowactivity">
+hey i'm using friendbook to updated<p id="more">more</p>
+</div>
+
+</div>
+<div id="student">
+
+<div id="profilehead">
+<div id="profilephoto"></div>
+<div id="id"> lisa_007</div>
+<div id="postdate">28 sep 2023</div>
+</div>
+<br>
+<div ><img
+id="postphoto"
+  src="ans.jpg"
+/></div>
+<br>
+<div id="activity">
+<div id="like"></div>
+<div id="likenum">340</div>
+<div><img
+   id="comment"
+  src="comment.png"
+/></div>
+<div id="commentnum">204</div>
+<div><img
+   id="share"
+  src="share.png"
+/></div></div>
+<br>
+<div id="belowactivity">
+hey i'm using friendbook to updated<p id="more">more</p>
+</div>
+
+</div>
+<div id="student">
+
+<div id="profilehead">
+<div id="profilephoto"></div>
+<div id="id">Aman_roy003</div>
+<div id="postdate">28 sep 2023</div>
+</div>
+<br>
+<div ><img
+id="postphoto"
+  src="men2.jpg"
+/></div>
+<br>
+<div id="activity">
+<div id="like"></div>
+<div id="likenum">340</div>
+<div><img
+   id="comment"
+  src="comment.png"
+/></div>
+<div id="commentnum">204</div>
+<div><img
+   id="share"
+  src="share.png"
+/></div></div>
+<br>
+<div id="belowactivity">
+hey i'm using friendbook to updated<p id="more">more</p>
+</div>
+
+</div>
+<div id="student">
+
+<div id="profilehead">
+<div id="profilephoto"></div>
+<div id="id">is.this_saurav</div>
+<div id="postdate">28 sep 2023</div>
+</div>
+<br>
+<div ><img
+id="postphoto"
+  src="men.jpg"
+/></div>
+<br>
+<div id="activity">
+<div id="like"></div>
+<div id="likenum">340</div>
+<div><img
+   id="comment"
+  src="comment.png"
+/></div>
+<div id="commentnum">204</div>
+<div><img
+   id="share"
+  src="share.png"
+/></div></div>
+<br>
+<div id="belowactivity">
+hey i'm using friendbook to updated<p id="more">more</p>
+</div>
+
+</div>
+<div id="student">
+
+<div id="profilehead">
+<div id="profilephoto"></div>
+<div id="id">manoj_pathak87</div>
+<div id="postdate">28 sep 2023</div>
+</div>
+<br>
+<div ><img
+id="postphoto"
+  src="men3.jpg"
+/></div>
+<br>
+<div id="activity">
+<div id="like"></div>
+<div id="likenum">340</div>
+<div><img
+   id="comment"
+  src="comment.png"
+/></div>
+<div id="commentnum">204</div>
+<div><img
+   id="share"
+  src="share.png"
+/></div></div>
+<br>
+<div id="belowactivity">
+hey i'm using friendbook to updated<p id="more">more</p>
+</div>
+
+</div>
+<div id="student">
+
+<div id="profilehead">
+<div id="profilephoto"></div>
+<div id="id">kristin.201</div>
+<div id="postdate">28 sep 2023</div>
+</div>
+<br>
+<div  ><img
+id="postphoto"
+  src="im.jpg"
+/></div>
+<br>
+<div id="activity">
+<div id="like"></div>
+<div id="likenum">340</div>
+<div><img
+   id="comment"
+  src="comment.png"
+/></div>
+<div id="commentnum">204</div>
+<div><img
+   id="share"
+  src="share.png"
+/></div></div>
+<br>
+<div id="belowactivity">
+hey i'm using friendbook to updated<p id="more">more</p>
+</div>
+
+</div>
+
+
+
+
+
+
+</div>
+</div>
+
+<!--here code for messenger-->
+
+<div id="contmess">
+<div id="cover"> <div><img
+   id="camera2"
+  src="camera.png"
+/></div>
+<div id="Profile1">
+     <div><img
+   id="camera1"
+  src="camera.png"
+/></div>
+</div>
+
+     
+</div>
+
+<div id="lefttext1">
+<table>
+<tr>
+<th><p>sahil_kumar.0077</p></th>
+
+<th></th>
+<th></th>
+<th></th>
+<th>24 posts</th>
+
+<th></th>
+<th></th>
+<th></th>
+<th><button style="background-color:#004385;
+border:2px solid #004385;
+width:100px;
+color:white;
+border-radius:5px;">New post</button></th>
+<th></th>
+<th></th>
+<th></th>
+<th><button style="background-color:#004385;
+border:2px solid #004385;
+width:130px;
+color:white;
+border-radius:5px;">23 New messages</button></th>
+</tr>
+<tr>
+<td  colspan="13">starting study from kvs vidayala</td>
+</tr>
+<tr>
+<td  colspan="13">study in kisan collage</td>
+</tr>
+<tr>
+<td  colspan="13">live in Bihar sharif</td>
+</tr>
+<tr>
+<td  colspan="13">(naland) Bihar India</td>
+</tr>
+<tr>
+<td  colspan="13">Fullstack developers</td>
+</tr>
+
+</table>
+</div>
+<hr style=" position:relative; top:20%;">
+<div id="allpost"></div>
+<div id="allpost"></div>
+<div id="allpost"></div>
+<div id="allpost"></div>
+<div id="allpost"></div>
+<div id="allpost"></div>
+</center>
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

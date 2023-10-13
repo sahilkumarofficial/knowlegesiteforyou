@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#head{
+    position:fixed;
+    padding-top: 25px;
+    height: 5%;
+    width: 100%;
+    background-color: aqua;
+    color: red;
+    text-align: center;
+    
+}
+@media (min-width : 320px) and (max-width : 500px) {
+    #page {
+    color : red;
+   margin-top:20%
+   
+    }
+    }
+
+
+#page{
+    box-shadow:2px 5px 5px 2px grey;
+    padding: 4%;
+}
+#html{
+    padding-bottom: 5%;
+}
+#dttext{
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 20px;
+    color: chocolate;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ddtext{
+    font-size: 17px;
+}
+#extra{
+    font-size: 20px;
+    color: rgb(210, 153, 30);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#codetext{
+    color: black;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
